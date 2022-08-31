@@ -9,7 +9,7 @@ This project contains two Python scripts to process the CSV files in folders `RN
 
 Both scripts accept as first input a CSV file containing a list o molecules with associated taxonomy information (the taxa of a certain taxonomy rank in a chosen taxonomy). Script `ClusterMatrix.py` accepts as second input a CSV file containing a distance matrix for the molecules in the selected set while the script `ClusterFeatures.py` accept as second input a CSV file containing pairs of features for each molecule in the selected set. The comparison method RAG-2D produces pairs of features while the other methods produce a distance matrix. 
 
-Folder `RNAs/Molecules` contains the list of molecules of the sets Archaea 16S, Archaea 23S, Archaea 5S, Bacteria 16S, Bacteria 23S, Bacteria 5S, Eukaryota 16S, Eukaryota 23S and Eukaryota 5S with associated Phylum Taxa according to the European Nucleotide Archive (ENA) taxonomy. The molecule files are available in different formats at <https://doi.org/10.6084/m9.figshare.20731783.v1>.
+Folder `RNAs/Molecules` contains the list of molecules of the sets Archaea 16S, Archaea 23S, Archaea 5S, Bacteria 16S, Bacteria 23S, Bacteria 5S, Eukaryota 16S, Eukaryota 23S and Eukaryota 5S with associated Phylum Taxa according to the European Nucleotide Archive (ENA) taxonomy <https://www.ebi.ac.uk/ena/browser/home>. The molecule files are available in different formats at <https://doi.org/10.6084/m9.figshare.20731783.v1>.
 
 Folder `RNAs/Distances` contains the distance matrices or a pair of features computed for the sets Archaea 16S, Archaea 23S, Archaea 5S, Bacteria 16S, Bacteria 23S, Bacteria 5S, Eukaryota 16S, Eukaryota 23S and Eukaryota 5S with the tools Genus, PSMAlign, ASPRAlign, PskOrder and RAG-2D.
 
