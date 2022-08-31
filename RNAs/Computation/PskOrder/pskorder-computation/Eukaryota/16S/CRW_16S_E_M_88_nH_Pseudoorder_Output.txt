@@ -1,0 +1,118 @@
+CPXPARAM_MIP_Strategy_CallbackReducedLP          0
+Found incumbent of value 47.000000 after 0.00 sec. (0.00 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 10 rows and 0 columns.
+Reduced MIP has 12 rows, 20 columns, and 40 nonzeros.
+Reduced MIP has 20 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.03 ticks)
+Probing time = 0.00 sec. (0.01 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 12 rows, 20 columns, and 40 nonzeros.
+Reduced MIP has 20 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.03 ticks)
+Probing time = 0.00 sec. (0.01 ticks)
+Clique table members: 12.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.01 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           47.0000       80.0000            70.21%
+      0     0        cutoff             47.0000                      2     --- 
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.14 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.14 ticks)
+Cplex completed!
+Status: Optimal
+Obj value: 47
+CPXPARAM_MIP_Strategy_CallbackReducedLP          0
+Found incumbent of value 23.000000 after 0.00 sec. (0.01 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 20 rows and 0 columns.
+Reduced MIP has 23 rows, 30 columns, and 70 nonzeros.
+Reduced MIP has 30 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.05 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 23 rows, 30 columns, and 70 nonzeros.
+Reduced MIP has 30 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.05 ticks)
+Probing time = 0.00 sec. (0.02 ticks)
+Clique table members: 23.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.03 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           23.0000      100.0000           334.78%
+*     0+    0                           52.0000      100.0000            92.31%
+*     0+    0                           61.0000      100.0000            63.93%
+*     0     0      integral     0       67.0000       67.0000        3    0.00%
+Elapsed time = 0.00 sec. (0.24 ticks, tree = 0.00 MB, solutions = 4)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.24 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.24 ticks)
+Cplex completed!
+Status: Optimal
+Obj value: 67
+CPXPARAM_MIP_Strategy_CallbackReducedLP          0
+Found incumbent of value 13.000000 after 0.00 sec. (0.00 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 10 rows and 0 columns.
+Reduced MIP has 12 rows, 20 columns, and 40 nonzeros.
+Reduced MIP has 20 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.03 ticks)
+Probing time = 0.00 sec. (0.01 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 12 rows, 20 columns, and 40 nonzeros.
+Reduced MIP has 20 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.03 ticks)
+Probing time = 0.00 sec. (0.01 ticks)
+Clique table members: 12.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.01 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           13.0000       90.0000           592.31%
+*     0+    0                           64.0000       90.0000            40.62%
+*     0+    0                           68.0000       90.0000            32.35%
+      0     0        cutoff             68.0000       68.0000        2    0.00%
+      0     0        cutoff             68.0000       68.0000        2    0.00%
+Elapsed time = 0.00 sec. (0.16 ticks, tree = 0.01 MB, solutions = 3)
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (0.16 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (0.16 ticks)
+Cplex completed!
+Status: Optimal
+Obj value: 68
+>strand
+AAAGGUUUGGUCCUGGCCUUAUAAUUAAUUAGAGGUAAAAUUACACAUGCAAACCUCCAUAGACCGGUGUAAAAUCCCUUAAACAUUUACUUAAAAUUUAAGGAGAGGGUAUCAAGCACAUUAAAAUAGCUUAAGACACCUUGCCUUAGCCACACCCCCACGGGACUCAGCAGUGAUAAAUAUUAAGCAAUAAACGAAAGUUUGACUAAGUUAUACCUCUUAGGGUUGGUAAAUUUCGUGCCAGCCACCGCGGUCAUACGAUUAACCCAAACUAAUUAUCUUCGGCGUAAAACGUGUCAACUAUAAAUAAAUAAAUAGAAUUAAAAUCCAACUUAUAUGUGAAAAUUCAUUGUUAGGACCUAAACUCAAUAACGAAAGUAAUUCUAGUCAUUUAUAAUACACGACAGCUAAGACCCAAACUGGGAUUAGAUACCCCACUAUGCUUAGCCAUAAACCUAAAUAAUUAAAUUUAACAAAACUAUUUGCCAGAGAACUACUAGCCAUAGCUUAAAACUCAAAGGACUUGGCGGUACUUUAUAUCCAUCUAGAGGAGCCUGUUCUAUAAUCGAUAAACCCCGCUCUACCUCACCAUCUCUUGCUAAUUCAGCCUAUAUACCGCCAUCUUCAGCAAACCCUAAAAAGGUAUUAAAGUAAGCAAAAGAAUCAAACAUAAAAACGUUAGGUCAAGGUGUAGCCAAUGAAAUGGGAAGAAAUGGGCUACAUUUUCUUAUAAAAGAACAUUACUAUACCCUUUAUGAAACUAAAGGACUAAGGAGGAUUUAGUAGUAAAUUAAGAAUAGAGAGCUUAAUUGAAUUGAGCAAUGAAGUACGCACACACCGCCCGUCACCCUCCUCAAAUUAAAUUAAACUUAACAUAAUUAAUUUCUAGACAUCCGUUUAUGAGAGGAGAUAAGUCGUAACAAGGUAAGCAUACUGGAAAGUGUGCUUGGAAUAAU
+..(((((...[[[.))))).((((((((((.(((((((((...(((.(((..((....))......(((.....(((((......(((.....)))....))).)).(((..(.(((..((....)).))).....))))..((....))))).((((....))))...)))))).).....(.(((...(((((....))))).)))).)).))))))...((((([[[...(((((.....((.]]])).......)))))))))).))))))))))....((([[.....((((.....(((..........((((((((..((((((((..(((......)))...))))))))..)).......(.((....)))))))))......)))...))))....((((((...((...((((.........))))...))))))))..........(((((((.......]]..))))))).))).(((......((((....))))....)))...]]]..(((((.(((((((...((..(((((((((((((((((...((((........))))........(((((((...........((.((((..((((((((((..(((((((((....))).......)))))).....(((.....)))...))))).)))...))))))))....)))))))..)).))))))))))...(((((....))))).....(...((((((((......))))))))...).....))))).....((((((((.......))))))))......))...)))))))))).))....((.((.(.((((((((................................................))))))))..).))..))....((((((((((....)))))))))).......

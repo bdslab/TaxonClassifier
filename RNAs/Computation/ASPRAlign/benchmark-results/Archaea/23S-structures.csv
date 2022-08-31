@@ -1,0 +1,5 @@
+Num,FileName,NumberOfNucleotides,NumberOfWeakBonds,IsPseudoknotted,TimeToGenerateStructuralRNATree[ns]
+1,"CRW-23S_A_E_1_nH.db",2925,852,Yes,17085342
+2,"CRW-23S_A_E_2_nH.db",2930,855,Yes,7106378
+3,"CRW-23S_A_E_3_nH.db",2930,855,Yes,3881711
+4,"CRW-23S_A_E_6_nH.db",3029,879,Yes,761854

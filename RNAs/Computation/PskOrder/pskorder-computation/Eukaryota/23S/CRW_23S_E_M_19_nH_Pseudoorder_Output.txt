@@ -1,0 +1,39 @@
+CPXPARAM_MIP_Strategy_CallbackReducedLP          0
+Found incumbent of value 369.000000 after 0.00 sec. (0.02 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 110 rows and 0 columns.
+Reduced MIP has 122 rows, 120 columns, and 340 nonzeros.
+Reduced MIP has 120 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.29 ticks)
+Probing time = 0.00 sec. (0.09 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 122 rows, 120 columns, and 340 nonzeros.
+Reduced MIP has 120 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.28 ticks)
+Probing time = 0.00 sec. (0.09 ticks)
+Clique table members: 122.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.00 sec. (0.12 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          369.0000      380.0000             2.98%
+      0     0        cutoff            369.0000                      3     --- 
+
+Root node processing (before b&c):
+  Real time             =    0.00 sec. (1.09 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.00 sec. (1.09 ticks)
+Cplex completed!
+Status: Optimal
+Obj value: 369
+>strand
+GGUAAAUCAUUUUUUAUUGUCUUAGUAGAGGAGAUAGAAUUAGACGUUUAAGCGGCGAUAGAUAAUAGAUAGUAGCGUGAGUGAAGGUUAAAUAAAUUAAACAGUGAAGUAUCGGUGGUGAGCACUCGCACCUUUUGCAUCAUGGCUUAUACUACUUUUUAUGCUGAGGAAGUAUCCCGAAAGUUUUGUGAUCUACUUUCUUACUUUACAGGUUGGCGUUAUAUUUGCUAUCUGGAGAUGGGGAGAUAGUGGCGAAAUACUUUUCGCACUGGUUGAUAGCUGGUUAUUCCGGAAAUAUAUUUAAGUAUAGUCUUCGGUUGAUGGGGUUUACAGUUUGAUAAUUCUAAUAGUAUUUGGGCUGUUUUUCGAAGGGGUCAGCCCCCUCAGGCUAAGCUGAGGGGGCUAUUUUAAAGGAUGGUUAAUUAAGAAUGGAAAGGCUAAGAAGUGGGCUUGAAGGAGUUAUCUUUAUGGAGUGGGUUAAACCACAAAUGAGCCUUGUAUAAUAAAUUAAAUUUUAUCUAUCUUUGUGUUGUACGGAAUCUCUUUUUGAAACAAUAAUUAUAGAGGUGAUAAUGUAAAGAUGAGUAGUCGAGAAGUUGUAAGUGUUUUAAGGUCGGGGAAAGAAACGUAAGGUUAUGUUCCGUAUUUUUAAAAAAAGCUAAAGGAACUCGGCAAAUAAGGGGACCGCCUGUUUAUCAAAAACAUGGCUCCCUGAGCAAUAUGGGGGGUCGUGCCUUCCCGGUGAGCUUGCGGGCUUAAACGGACGCGGUAAAGCGUGCUAAGGUAGCUAAAUUAUGGCCUAUUAAUUGUAGGUCCUGUGAAUGGUUUGACGAGUUUCCAACUGUCUCUAGUUUUUUUUGGUGAACUUGAAUUGGAUGUGCAAAUGCUUCCAUGGGUAAGAAAGACGAGAAGACCCCGUGAAGUUAGAAAUUUAAGUUAUUGGGAAGUUCCAAGGCUAUUUGUGGCCGAAUCGUUGAGGAGCACUAGAACUUAGUGUUUCAGAAGGGGUGAAUAAUAGCAGUUUUGGCUGGGGCAGCAAAGGAGCAAAGCUAGACUCCUUUAGGGUGUAAAACAGAUGUGUUACGACCCACAAACAUUAAGGUGUGAUUAUCAGAAGAAGUUACUCCGGGGAUAACAGCGUAAUCUGUCUUGAUAGUUCUUAUAGAUGGGCGGGUUUGCGACCUCGAUGUUGGCUCUGGAUAUCCUAAGGCUUGUAGGCGGUCUUGAGGGUUGGUUCGUUCGCCCAUAAAAAUCUGACGUGAGCUGAGUUCAGAUCGGUGAAAGCUAGGUCGGUUUCUAUCUUCUUUCUUUUAAAAUUGGGCUUUAGGGUACGAAAGGACAUUUAGUUCCAGGUGAUGGCCUGUAGUGUGUGAUUUUAGAAUAAUUUUAAUAUAAAAAAGUUUAUCUAUAA
+......((.......((...((....)).......................((.....))..............((....))....)).................)).....(.(.(((....))))..((((........))))(((.(((....((((........))))...((.(...((((.((...((((((((((((....((((.((((.........))))))))..).))))))))))).(((.....)))......))))))......).))..((((((....(((((....))))).((((((.............(((((((((...............)))))))))....)))))..)...((((((((((......)))))))))).....(((.......)))...((((.....((((((...(((..(((........)))..)))....(...((......)).).....))))))........................)))).........))))))(.((((((((........))))))))..).....))))))((.....((................................................................((((((((.(((.............(((((((((..(((....[....)))..(((((((((....).))))))))..((((.(((..(((((((....)))))..)))))((((......))))(...).....(........((((((.....)))))))........))))...)).)))))))....))).))))))))....))....)))....(((((........)))))......((((.(((.((......((((.(((((((..(((((..(((((((...................................................................)))))))..)))))..((((.....))))((((((..........))))))(.(((((((((((....))))))).))))......((((.....))))....)....)))))..))))))........(((.((((((((...((.......))...)))))))..))))..........(((((((((((..((.(((((((.....)))))))...)).(((((.....))))).....)))))..)..)))).)...].(((((((....))).))))....))..)))))))............((((((((...............))))))))(((((....)))))..........(((((..............)))))..............
