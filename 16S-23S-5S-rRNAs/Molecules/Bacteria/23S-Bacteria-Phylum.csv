@@ -1,0 +1,44 @@
+Id;Organism;Taxon
+CRW_23S_B_P_1;Acinetobacter calcoaceticus;Proteobacteria
+CRW_23S_B_P_2;Aeromonas hydrophila;Proteobacteria
+CRW_23S_B_F_3;Bacillus anthracis;Firmicutes
+CRW_23S_B_F_4;Bacillus subtilis;Firmicutes
+CRW_23S_B_P_5;Bartonella bacilliformis;Proteobacteria
+CRW_23S_B_P_6;Bordetella bronchiseptica;Proteobacteria
+CRW_23S_B_P_7;Bordetella pertussis;Proteobacteria
+CRW_23S_B_S_8;Borrelia burgdorferi;Spirochaetes
+CRW_23S_B_P_9;Burkholderia cepacia;Proteobacteria
+CRW_23S_B_P_10;Burkholderia mallei;Proteobacteria
+CRW_23S_B_P_11;Burkholderia pseudomallei;Proteobacteria
+CRW_23S_B_P_12;Campylobacter jejuni;Proteobacteria
+CRW_23S_B_C_13;Chlamydia trachomatis ;Chlamydiae
+CRW_23S_B_F_16;Clostridium botulinum A;Firmicutes
+CRW_23S_B_F_17;Clostridium botulinum B;Firmicutes
+CRW_23S_B_F_18;Clostridium botulinum B;Firmicutes
+CRW_23S_B_F_19;Clostridium botulinum E;Firmicutes
+CRW_23S_B_D_20;Deinococcus radiodurans;Deinococcus-Thermus
+CRW_23S_B_D_21;Deinococcus radiodurans;Deinococcus-Thermus
+CRW_23S_B_F_22;Enterococcus faecalis;Firmicutes
+CRW_23S_B_F_23;Erysipelothrix rhusiopathiae;Firmicutes
+CRW_23S_B_P_24;Escherichia coli;Proteobacteria
+CRW_23S_B_P_27;Haemophilus influenzae;Proteobacteria
+CRW_23S_B_P_28;Helicobacter pylori;Proteobacteria
+CRW_23S_B_P_29;Klebsiella pneumoniae;Proteobacteria
+CRW_23S_B_F_30;Lactococcus lactis;Firmicutes
+CRW_23S_B_S_31;Leptospira interrogans;Spirochaetes
+CRW_23S_B_F_32;Listeria monocytogenes;Firmicutes
+CRW_23S_B_F_33;Listeria monocytogenes;Firmicutes
+CRW_23S_B_Ac_34;Micrococcus luteus;Actinobacteria
+CRW_23S_B_Ac_35;Mycobacterium leprae;Actinobacteria
+CRW_23S_B_T_36;Mycoplasma genitalium;Tenericutes
+CRW_23S_B_T_37;Mycoplasma pneumoniae;Tenericutes
+CRW_23S_B_P_38;Neisseria gonorrhoeae;Proteobacteria
+CRW_23S_B_P_39;Neisseria meningitidis;Proteobacteria
+CRW_23S_B_P_40;Plesiomonas shigelloides;Proteobacteria
+CRW_23S_B_P_41;Pseudomonas aeruginosa;Proteobacteria
+CRW_23S_B_P_43;Rickettsia rickettsii;Proteobacteria
+CRW_23S_B_P_44;Ruminobacter amylophilus;Proteobacteria
+CRW_23S_B_F_45;Staphylococcus aureus;Firmicutes
+CRW_23S_B_F_46;Staphylococcus carnosus;Firmicutes
+CRW_23S_B_D_49;Thermus thermophilus;Deinococcus-Thermus
+CRW_23S_B_S_50;Treponema pallidum;Spirochaetes
