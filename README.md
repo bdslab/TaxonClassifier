@@ -3,7 +3,7 @@ Evaluation Framework of Comparison Methods that uses Automatic Taxonomy Reconost
 
 The code and the data available in this project are a support for the paper "Automatic Generation of Pseudoknotted RNAs Taxonomy" by Michela Quadrini, Luca Tesei, and Emanuela Merelli (2022).
 
-## Content
+## Contents
 
 This project contains two Python scripts to process the CSV files in folders `RNAs/Distances` and `RNAs/Molecules`. They use agglomerative clustering to reconstruct the taxa associated to a set of molecules according to a distance matrix or pairs of features. The reconstructed taxa are then compared with the ones that are taken from a curated biological taxonomy. 
 
@@ -15,12 +15,12 @@ Folder `RNAs/Distances` contains the distance matrices or a pair of features com
 
 Folder `RNAs/Computation` contains scripts and software to run the following comparison methods for pseudoknotted RNA secondary structures: Genus, PSMAlign, ASPRAlign, PskOrder and RAG-2D. They can be run on all the sets Archaea 16S, Archaea 23S, Archaea 5S, Bacteria 16S, Bacteria 23S, Bacteria 5S, Eukaryota 16S, Eukaryota 23S and Eukaryota 5S.
 
-## Requirements for running the script
+## Requirements for running the scripts
 
 * Python 3
 * Scikit-learn 
 
-## Use of the script
+## Use of the scripts
 
 For example, to obtain the evaluation of the performance of the Genus method, which produces a distance matrix, on 16S Archaea run:
 
