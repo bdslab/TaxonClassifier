@@ -29,8 +29,9 @@ Folder `RNAs/Benchmark` contains the description of the benchmark introduced in 
 * Python 3
 * Java java runtime environment (jre) version 8 or higher 
 * Bash or a similar shell
-* PskOrder binaries (see `Computation/Paskorder/README.md`)
-* Matlab, for computing the RAD-2D Fiedler vector features (see `Computation/RAG-2D/README.md`) 
+* PskOrder binaries (see `Computation/PskOrder/README.md`)
+* Matlab, for computing the RAD-2D Fiedler vector features (see `Computation/RAG-2D/README.md`)
+* Perl 5.14, for executing PSMAlign (see `Computation/PSMAlign/README.md`)
 
 ## Use of the scripts
 
