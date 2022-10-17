@@ -5,6 +5,10 @@
 # Usage:
 # > ./pseudoorderworkbench.sh <input-folder> <output-folder> [<output-file>]
 
+# TODO put in the following variable the path to the MILP executable file in your machine
+
+pathToMILP="/home/luca/Dropbox/Documenti/Tools/MILP/binaries/milp"
+
 if [[ "$#" -eq 0 ]] ; then
   echo "pseudoorder workbench: no input folder(s) given"
   echo "Usage: pseudoorderworkbench.sh <input-folder> <output-folder> [<output-file>]"
@@ -54,7 +58,7 @@ do
     
     #execute MILP on the current molecule
     
-    /home/luca/Dropbox/Documenti/Tools/MILP/binaries/milp $1/$mol1 > "$2/${mol1Name}_Pseudoorder_Output.txt"
+    $pathToMILP $1/$mol1 > "$2/${mol1Name}_Pseudoorder_Output.txt"
     
     # Register stopping time
     end=$(date +%s%N) # This does not work on Mac OS
