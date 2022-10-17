@@ -43,7 +43,7 @@ To obtain the evaluation of the performance of the RAG-2D method, which produces
 
 `python3 ClusterFeatures.py RNAs/Molecules/Bacteria/23S-Bacteria-Phylum.csv RNAs/Distances/Bacteria/Rag-2d/23S-eigenvalues.csv`
 
-More information about the executions is available at `Benchmark/README.md`
+More information about the executions is available at `RNAs/Benchmark/README.md`
 
 ## Contact Information
 
