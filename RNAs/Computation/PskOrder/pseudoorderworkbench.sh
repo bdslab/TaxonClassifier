@@ -5,7 +5,9 @@
 # Usage:
 # > ./pseudoorderworkbench.sh <input-folder> <output-folder> [<output-file>]
 
-# TODO put in the following variable the path to the MILP executable file in your machine
+# Put in the following variable the path to the MILP executable file in your machine
+# The binaries or the source code of MILP can be obtained from the RNAPDBee group
+# http://rnapdbee.cs.put.poznan.pl/ 
 
 pathToMILP="/home/luca/Dropbox/Documenti/Tools/MILP/binaries/milp"
 

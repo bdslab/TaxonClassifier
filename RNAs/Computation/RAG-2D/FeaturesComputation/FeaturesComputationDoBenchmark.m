@@ -1,3 +1,13 @@
+% This Matlab script determines the features s and e for each molecule using the 
+% converted dual graph. Folder `FeaturesComputation` contains the code to do so.
+% The converted dual graphs computed were copied in the subfoleder 
+% `FeaturesComputation/benchmark-adjmatrices`. 
+
+% This script is courtesy of the Schlick's Lab - 
+% http://www.biomath.nyu.edu/?q=rag/home
+% and partially modified by us.
+% It computes the features e and s for each molecule and stores them in CSV 
+% files in `FeaturesComputation/benchmark-results` subfolder. 
 
 clc;
 clear all;

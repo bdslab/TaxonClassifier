@@ -8,6 +8,11 @@ from itertools import permutations
 from ClassesFunctions import *
 import os
 
+# This code is courtesy of Schlick's Lab - http://www.biomath.nyu.edu/?q=rag/home. 
+# It is a variant of the original Python script in 
+# https://github.com/Schlicklab/DualGraphCodes that permits to process all the 
+# files in a given folder instead of one input file (which is the functionality 
+# of the original code).
 
 # S.J. 07/09/2018 - changes to use the functions defined in ClassesFunctions file to avoid redundancy
 vertexOrder = []
